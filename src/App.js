@@ -13,6 +13,7 @@ let routers = createBrowserRouter([
     {path:"Protfolio",element: <Protfolio/>},
     {path:"About",element: <About/>},
     {path:"Contact",element: <Contact/>},
+    {path:"*",element:<Header/>},
   ]
 }
 ])
