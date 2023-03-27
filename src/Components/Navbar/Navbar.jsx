@@ -13,7 +13,7 @@ export default function Navbar() {
       <div>
       <Link to="/">START REACT</Link>
       </div>
-        <div className=''>
+        <div>
             <ul className='list-unstyled d-flex align-items-center'>
                 <li><Link to="Protfolio" className='active' >PORTFOLIO</Link></li>
                 <li><Link to="ABOUT" >ABOUT</Link></li>
